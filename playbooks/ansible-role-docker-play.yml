@@ -1,0 +1,5 @@
+---
+- name: install docker
+  hosts: all
+  roles:
+   - "../roles/ansible-role-docker"
